@@ -1,0 +1,100 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background: rgb(6, 1, 48) !important;
+    height: 100%;
+}
+.hedd{
+    
+        background: rgba(0, 0, 0, 0.267);
+    height: 100%;
+    border: 2px solid white;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: left;
+    display: inline-block;
+}
+header{
+    background: rgba(0, 0, 0, 0.267);
+    height: 100%;
+    border: 2px solid white;
+    border-radius: 20px;
+    justify-content: center;
+    text-align: left;
+    display: inline-block;
+    position: fixed;
+}
+header .ult{
+   margin-top: 20%;
+   margin: 0% 5%;
+   
+   
+}
+header ul li{
+    margin: 10% 0%;
+    list-style: none;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
+    cursor: pointer;
+    transition: 2s;
+    width: 90%;
+    border-radius: 5px;
+
+}
+header .ult li:hover{
+    background: blueviolet;
+    color: white;
+    width: 90%;
+    transition: 2s;
+    border-radius: 5px;
+}
+header hr{
+    width: 80%;
+    border: 2px solid gray;
+}
+header ul{
+    margin-top: 20%;
+    margin: 0% 10%;
+    color: white;
+    
+    
+ }
+ header ul li{
+    color: white;
+ }
+section{
+    border: 3px solid white;
+    border-radius:10px ;
+}
+section .navbar{
+    background: rgba(0, 0, 0, 0.253) !important;
+}
+section .navbar img{
+    width: 100%;
+}
+.card {
+    margin: 1em auto;
+    width: 18rem;
+    height: 230px;
+  }
+  
+  footer{
+    border: 3px solid white;
+    border-radius: 10px;
+    position: fixed;
+    text-align: center;
+    right: -1px;
+
+  }
+  .foot{
+    width: 119%;
+  }
+  #sild{
+    background-image: url(../images/hbo-max-content.webp);
+    height: 500px;
+    border-radius: 10px;
+  }
+
